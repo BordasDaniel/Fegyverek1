@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ADS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+  <body>
+    
+    <div class="wrapper">
+        <nav>
+          <input type="checkbox" id="show-search">
+          <input type="checkbox" id="show-menu">
+          <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+          <div class="content">
+          <div class="logo"><img src="logo.JPG" alt="" srcset=""></a></div>
+            <ul class="links">
+              <li><a href="#">Kezdőlap</a></li>
+              <li><a href="#">Rólunk</a></li>
+              <li>
+                <a href="#" class="desktop-link">Kategóriák</a>
+                <input type="checkbox" id="show-features">
+                <label for="show-features">Kategóriák</label>
+                <ul>
+                  <li><a href="#">Piszoly </a></li>
+                  <li><a href="#">SMG </a></li>
+                  <li><a href="#">Assault</a></li>
+                  <li><a href="#">Kés</a></li>
+                  <li><a href="#">Gránát</a></li>
+                  <li><a href="#">Kiegészítők</a></li>
+                </ul>
+              </li>
+          </div>
+          <label for="show-search" class="search-icon"><i class="large material-icons">shopping_cart</i></label>
+        </nav>
+      </div>
+      
+      <div class="ures"></div>
+
+      <div class = "card-wrapper">
+        <div class = "card">
+          <!-- card left -->
+          <div class = "product-imgs">
+            <div class = "img-display">
+              <div class = "img-showcase">
+                <img src = "ads/1.jpg" alt = "shoe image">
+                <img src = "ads/2.jpg" alt = "shoe image">
+                <img src = "ads/3.jpg" alt = "shoe image">
+                <img src = "ads/4.jpg" alt = "shoe image">
+              </div>
+            </div>
+            <div class = "img-select">
+              <div class = "img-item">
+                <a href = "#" data-id = "1">
+                  <img src = "ads/1.jpg" alt = "shoe image">
+                </a>
+              </div>
+              <div class = "img-item">
+                <a href = "#" data-id = "2">
+                  <img src = "ads/2.jpg" alt = "shoe image">
+                </a>
+              </div>
+              <div class = "img-item">
+                <a href = "#" data-id = "3">
+                  <img src = "ads/3.jpg" alt = "shoe image">
+                </a>
+              </div>
+              <div class = "img-item">
+                <a href = "#" data-id = "4">
+                  <img src = "ads/4.jpg" alt = "shoe image">
+                </a>
+              </div>
+            </div>
+          </div>
+        <!-- card right -->
+        <div class = "product-content">
+            <h2 class = "product-title">ADS</h2>
+            <div class = "product-rating">
+              <i class = "fas fa-star"></i>
+              <i class = "fas fa-star"></i>
+              <i class = "fas fa-star"></i>
+              <i class = "fas fa-star"></i>
+              <i class = "fas fa-star"></i>
+              <span>5.0(57)</span>
+            </div>
+
+            <div class = "product-price">
+                <!-- <p class = "last-price">Régi ára: <span>500.000ft</span></p> -->
+                <p class = "new-price">Ára:<span> 121.999ft</span></p>
+              </div>
+    
+              <div class = "product-detail">
+                <h2>A fegyverről: </h2>
+                <p>Ezt a puskát az orosz műszertervező iroda tervezte Tulában . 40  mm-es gránátvetővel van felszerelve, amelynek hatótávolsága 400  m, és a VOG-25 gránátot különféle módosításokkal látták el (víz alatti használatú gránátokról nem tesznek említést). Tömege 4,6  kg , körülbelül annyi, mint a híres AK-47 . A fegyver 5,45 × 39  mm-es golyókat használ, és sebessége 700 kör / perc, 500 méteres hatótávolsággal  . A fegyver tényleges víz alatti lőtávolsága a megfelelő töltény használatakor 5 méter mélységben körülbelül 25 méter, 20 méter mélységben pedig 18 méter. A víz alatti patron külsejében nagyon hasonlít a szokásos 5,45 × 39 mm-es  lőszerekhez , a lövedék kivételével.</p>
+                
+                <ul>
+             <li>Lőszer:<span> 5,45x39mm</span></li>
+             <li> Tárkapacitás: <span> 30 lőszeres tár </span> </li> 
+             <li>Tömeg: <span> 4,6 kg</span></li>
+             <li>Fegyver hossza:<span> 685mm</span></li>
+             <li>Csőhossz:<span> 418mm</span></li>
+             <li>Elméleti tűzgyorsaság:<span> 700 lövés/perc</span></li>
+             <li>Effektív lőtávolság:<span> 500m</span></li>
+             <li>Csőtorkolati sebesség:<span> 900 m/s</span></li>
+                   
+                </ul>
+              </div>
+
+              <div class = "purchase-info">
+                <input type = "number" min = "0" value = "1">
+                <button type = "button" class = "btn">
+                  Kosár <i class = "fas fa-shopping-cart"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    
+    <script src="script.js"></script>
+  </body>
+</html>
